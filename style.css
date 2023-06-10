@@ -1,0 +1,188 @@
+body {
+    font-family: monospace;
+    margin: 10px;
+}
+
+.nav-bar{
+  font-size: 50px;
+  text-align: center;
+}
+.size-01{
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  color: dodgerblue;
+}
+a:hover{
+  color: skyblue;
+}
+a:active{
+  color: blue;
+}
+.grad-box-01{
+  background-image: linear-gradient(to bottom right , red, orangered, orange, yellow);
+  color: whitesmoke;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px black;
+}
+.btn-grad-01{
+  background-image: linear-gradient(to bottom right , darkblue, blue, purple);
+  padding: 10px;
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  text-shadow: 2px 2px 7px white;
+   box-shadow: 5px 5px 20px black;
+}
+.btn-grad-01:hover{
+  background-image: linear-gradient(to bottom right, green, darkblue);
+  padding: 10px;
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  text-shadow: 2px 2px 7px white;
+  box-shadow: 5px 5px 20px black;
+}
+.btn-grad-01:active{
+  background-image: linear-gradient(to bottom right, green, darkblue);
+  opacity: 0.5;
+  padding: 10px;
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  text-shadow: 2px 2px 7px white;
+  box-shadow: 5px 5px 20px black;
+}
+
+.btn-01-anim{
+  animation-name: anm-01;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  background-color: deepskyblue;
+  color: white;
+  border: 5px solid skyblue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: 0px solid skyblue;
+}
+
+.btn-01{
+  background-color: darkblue;
+  color: white;
+  border: 0px solid transparent;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.btn-01:hover{
+  animation-name: anm-01;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  background-color: deepskyblue;
+  color: white;
+  border: 5px solid skyblue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: 0px solid skyblue;
+}
+
+
+@keyframes anm-01{
+  from{
+      background-color: darkblue;
+      color: white;
+      border: 0px solid transparent;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 20px;
+  }
+  to{
+    background-color: deepskyblue;
+    color: white;
+    border: 5px solid skyblue;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: 0px solid skyblue;
+  }
+}
+.btn-01:active{
+  animation-name: anm-02;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  background-color: deepskyblue;
+  color: white;
+  border: 5px solid skyblue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: 0px solid blue;
+}
+.btn-01:focus{
+  /*animation-name: anm-01;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;*/
+  background-color: deepskyblue;
+  color: white;
+  border: 5px solid skyblue;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: 0px solid skyblue;
+}
+
+@keyframes anm-02{
+  0%{
+         background-color: deepskyblue;
+         color: white;
+         border: 5px solid skyblue;
+         cursor: pointer;
+         padding: 10px;
+         border-radius: 10px;
+         font-size: 20px;
+         outline: 0px solid skyblue;
+  }
+  50%{
+    background-color: deepskyblue;
+    color: white;
+    border: 5px solid skyblue;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: 2px solid blue;
+  }
+  100%{
+    background-color: deepskyblue;
+    color: white;
+    border: 5px solid skyblue;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: 0px solid skyblue;
+  }
+}
+
