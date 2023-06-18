@@ -26,7 +26,7 @@ function GTG_INIT_FONT_INSTALLATION_LOCATION(_ID = 'none'){
     alert("PLEASE DEFINE A ID TO INITALISE THE FONT INSTALLATION LOCATION");
     console.error("PLEASE DEFINE A ID TO INITALISE THE FONT INSTALLATION LOCATION");
   }
-  document.getElementById(_ID).innerHTML = "<style>@font-face {font-family: 'console';src: url('https://api.ghgltggamer.repl.co/console.ttf');}  @font-face {font-family: 'rodex';src: url('https://api.ghgltggamer.repl.co/RodEX.ttf');}  @font-face {font-family: 'fly';src: url('https://api.ghgltggamer.repl.co/Fly.ttf');}   @font-face {font-family: 'freely';src: url('https://api.ghgltggamer.repl.co/FreeLy.ttf');}</style>";
+  document.getElementById(_ID).innerHTML = "<style>@font-face {font-family: 'console';src: url('https://fozdtx.github.io/foz-dtx-libraries/fonts/console.ttf');}  @font-face {font-family: 'rodex';src: url('https://fozdtx.github.io/foz-dtx-libraries/fonts/RodEX.ttf');}  @font-face {font-family: 'fly';src: url('https://fozdtx.github.io/foz-dtx-libraries/fonts/Fly.ttf');}   @font-face {font-family: 'freely';src: url('https://fozdtx.github.io/foz-dtx-libraries/fonts/FreeLy.ttf');}</style>";
 }
 /*function GTG_INIT_CUSTOM_FONT_INSTALLATION_LOCATION(_FONT_FILE_NAME, _FONT_F_NAME, _ID){
   var _FONT_FILE_NAME, _ID, _FONT_F_NAME;
