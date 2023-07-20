@@ -9,7 +9,7 @@ var page = Document;
 
 // new DOM object - end 
 // import
-
+var global_version_char = "0.2";
 var gtg_init_font = false;
 function GTG_INIT_FONT(){
   gtg_init_font = true;
